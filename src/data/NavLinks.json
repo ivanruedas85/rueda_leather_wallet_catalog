@@ -1,5 +1,5 @@
 [
-    {"text": "Inicio", "href": "/"},
-    {"text": "Productos", "href": "#productos"},
-    {"text": "Contacto", "href": "#contacto"}
+    {"text": "Inicio", "href": "https://github.com/ivanruedas85/catalogorrlw.github.io/"},
+    {"text": "Productos", "href": "https://github.com/ivanruedas85/catalogorrlw.github.io/#productos"},
+    {"text": "Contacto", "href": "https://github.com/ivanruedas85/catalogorrlw.github.io/#contacto"}
 ]
