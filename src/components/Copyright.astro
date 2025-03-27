@@ -1,0 +1,20 @@
+---
+import { AUTHOR_NAME_SITE, NAME_SITE } from "../const"
+
+const date = new Date().getFullYear()
+---
+
+<p>
+    &copy; {date} <span>{NAME_SITE}</span> and <span>{AUTHOR_NAME_SITE}</span>. All rights reserved.
+</p>
+
+<style>
+    p {
+      color: white;
+      margin: 0;
+      font-size: 0.875rem;
+    }
+    span{
+      font-weight: 600;
+    }
+</style>
