@@ -1,5 +1,5 @@
 [
-    {"text": "Inicio", "href": "/"},
-    {"text": "Productos", "href": "#productos"},
-    {"text": "Contacto", "href": "#contacto"}
+    {"text": "Inicio", "href": "/rueda_leather_wallet_catalog/"},
+    {"text": "Productos", "href": "rueda_leather_wallet_catalog/productos"},
+    {"text": "Contacto", "href": "rueda_leather_wallet_catalog/contacto"}
 ]
