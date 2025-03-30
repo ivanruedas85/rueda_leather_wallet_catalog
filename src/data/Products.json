@@ -3,42 +3,50 @@
         {
             "title": "Bifold Horane",
             "description": "Cartera con monedero y tarjetero",
-            "image": "/image/photo_2024-03-18_22-30-17.png"
+            "image": "/image/photo_2024-03-18_22-30-17.png",
+            "category": "Categoria"
         },
         {
             "title": "Bifoldd CoinPunch",
             "description": "Cartera Con monedero",
-            "image": "/image/photo_2024-03-18_23-59-17.png"
+            "image": "/image/photo_2024-03-18_23-59-17.png",
+            "category": "Categoria"
         },
         {
             "title": "Long Wallet Bespoke",
             "description": "Cartera Larga para multiples tarjetas y monedero grande",
-            "image": "/image/photo_2024-03-18_23-50-44.png"
+            "image": "/image/photo_2024-03-18_23-50-44.png",
+            "category": "Categoria"
         },
         {
             "title": "Bifold Leathergood",
             "description": "Cartera minimalista vertical",
-            "image": "/image/photo_2024-03-18_22-20-22.png"
+            "image": "/image/photo_2024-03-18_22-20-22.png",
+            "category": "Categoria"
         },
         {
             "title": "Bifold Glowforge",
             "description": "Cartera minimalista horizontal",
-            "image": "/image/photo_2024-03-18_23-14-50.png"
+            "image": "/image/photo_2024-03-18_23-14-50.png",
+            "category": "Categoria"
         },
         {
             "title": "Bifold Leathergood",
             "description": "Cartera horizontal",
-            "image": "/image/photo_2024-03-18_21-56-18.png"
+            "image": "/image/photo_2024-03-18_21-56-18.png",
+            "category": "Categoria"
         },
         {
             "title": "Bifold Blinder",
             "description": "Cartera sencilla tipo tarjetero",
-            "image": "/image/photo_2024-03-19_00-00-51.png"
+            "image": "/image/photo_2024-03-19_00-00-51.png",
+            "category": "Categoria"
         },
         {
             "title": "Bifold Classic",
             "description": "Cartera clasica sin monedero",
-            "image": "/image/photo_2024-03-19_15-20-33.png"
+            "image": "/image/photo_2024-03-19_15-20-33.png",
+            "category": "Categoria"
         },
         {
             "title": "Próximamente",
