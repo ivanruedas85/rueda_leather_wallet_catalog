@@ -1,5 +1,5 @@
 [
     {"text": "Inicio", "href": "/"},
     {"text": "Productos", "href": "/productos"},
-    {"text": "Contacto", "href": "#contacto"}
+    {"text": "Nosotros", "href": "/nosotros"}
 ]
