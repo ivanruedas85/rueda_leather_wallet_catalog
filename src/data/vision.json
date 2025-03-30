@@ -1,4 +1,21 @@
 [
-    {"title": "Calidad", "description": "descripción", "icon": "★"},
-    {"title": "Innovación", "description": "descripción", "icon": "💡"}
+    {"title": "Calidad", 
+    "contenido": [
+        "En Rueda Leather Wallets, nos comprometemos a ofrecer productos de marroquinería y talabartería que reflejen excelencia artesanal, autenticidad y durabilidad. Nuestra visión de calidad se basa en los siguientes principios fundamentales:",
+        "Artesanía excepcional: Cada pieza es elaborada con dedicación y precisión, combinando técnicas tradicionales con innovación para garantizar acabados impecables.",
+        "Materiales de primera calidad: Seleccionamos cuidadosamente los mejores cueros y materiales, asegurando resistencia, elegancia y una larga vida útil en cada producto.",
+        "Diseño funcional y estético: Creamos productos que no solo son visualmente atractivos, sino también prácticos y cómodos de usar en el día a día.",
+        "Satisfacción del cliente: Nos esforzamos por superar las expectativas de nuestros clientes, ofreciendo un servicio personalizado y una experiencia de compra excepcional.",
+        "Compromiso con la mejora continua: Buscamos constantemente nuevas formas de perfeccionar nuestros procesos, explorando nuevas técnicas y materiales para mantenernos a la vanguardia del sector.",
+        "Nuestro objetivo es que cada producto de Rueda Leather Wallets no solo sea una pieza de marroquinería, sino una obra de arte que cuente una historia, represente calidad y acompañe a nuestros clientes durante toda la vida."
+    ],
+    "icon": "★"},
+    {"title": "Innovación",
+    "contenido": [
+        "En Rueda Leather Wallets, fusionamos tradición y modernidad para crear productos únicos en marroquinería. Innovamos a través de nuevas técnicas, diseños funcionales y materiales de alta calidad, manteniendo siempre la esencia artesanal.",
+        "Buscamos transformar cada pieza en una expresión de creatividad, durabilidad y estilo, ofreciendo a nuestros clientes una experiencia auténtica y vanguardista.",
+        "Además de la innovación en nuestros productos, implementamos procesos sostenibles y responsables con el medio ambiente, utilizando técnicas que minimizan el desperdicio de materiales y promoviendo el uso de insumos ecológicos.",
+        "Nos inspiramos en la evolución del diseño y las necesidades de nuestros clientes para desarrollar productos exclusivos que se adapten a un mundo en constante cambio, sin perder la esencia de la artesanía tradicional."
+    ],
+    "icon": "💡"}
 ]
