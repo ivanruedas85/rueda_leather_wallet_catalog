@@ -1,0 +1,153 @@
+---
+interface Props {
+    id: string;
+}
+
+const {id} = Astro.props
+---
+
+<div class="modal" id={id}>
+    <div class="modal-content">
+        <button class="close-btn">&times</button>
+        <div class="modal-body">
+            <slot />
+        </div>
+    </div>
+</div>
+
+<style type="css">
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0 0 0 0.5);
+        z-index: 10;
+        backdrop-filter: blur(5px);
+
+        .modal-content {
+            background: var(--glass-background);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            box-shadow: var(--glass-shadow);
+            position: relative;
+            margin: 15% auto;
+            padding: 20px;
+            width: 100%;
+            max-width: 600px;
+            animation: modalOpen .3s ease-out;
+
+            @keyframe modalOpen {
+                from {
+                    opacity: ease-out;transform: stranslateY(-100%);
+                }
+                to {
+                    opacity: 1;transform: translateY(0);
+                }
+            }
+
+            .close-btn {
+                position: abssolute;
+                right: 20px;
+                top: 10px;
+                font-size: 28px;
+                font-weight: 600;
+                color: #fff;
+                background: none;
+                border: none;
+                cursor: pointer;
+                p0dding: 0;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: color 0.2s;
+
+                &:hover {
+                    color: rgba(255 255 255 0.8);
+                }
+            }
+
+            .modal-body {
+                color: #fff;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .modal-content {
+                width: 90%;
+                margin: 10% auto;
+                padding: 15px;
+            }
+        }
+    }
+</style>
+
+<script>
+    class ModalManager {
+        private modals: Map<String, HTMLElement> = new Map();
+        
+        constructor() {
+            this.initializeModals();
+            this.setupEventListeners();
+        }
+
+        private initializeModals() {
+            document.querySelectorAll('.modal').forEach(modal => {
+                if(modal instanceof HTMLElement && modal.id) {
+                    this.modals.set(modal.id, modal);
+                }
+            })
+        }
+
+        private setupEventListeners() {
+            document.querySelectorAll('.close-btn').forEach(button => {
+                button.addEventListener('click', () => {
+                    const modal = button.closest('.modal');
+                    if(modal) this.closeModal(modal.id)
+                })
+            })
+
+            this.modals.forEach(modal => {
+                modal.addEventListener('click', (e) => {
+                    if (e.target === modal) {
+                        this.closeModal(modal.id);
+                    }
+                })
+            })
+            document.addEventListener('keydown', (e) => {
+                if (e.key == 'Escape') {
+                    this.closeAllModals();
+                }
+            })
+        }
+        public openModal(modalId: string) {
+            const modal = this.modals.get(modalId);
+            if (modal) {
+                modal.style.display = 'block'
+                document.body.style.overflow = 'hidden'
+            }
+        }
+        public closeModal(modalId: string) {
+            const modal = this.modals.get(modalId)
+            if (modal) {
+                modal.style.display = 'none'
+                document.body.style.overflow = ''
+            }
+        }
+        private closeAllModals() {
+            this.modals.forEach(modal => {
+                modal.style.display = 'none'
+            })
+            document.body.style.overflow = ''
+        }
+    }
+    const modalManager = new ModalManager();
+
+    (window as any).modalManager = modalManager
+</script>
