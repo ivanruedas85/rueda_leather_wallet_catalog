@@ -1,0 +1,141 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Visions from '../data/vision.json'
+---
+<Layout>
+    <main>
+        <section class="hero">
+            <div class="logo-container glass-card">
+                <img src="/logo-color.png" alt="Logo de Rueda Leather Wallet" class="company-logo">
+            </div>
+            <div class="hero-content glass-card">
+                <h1>Nuestra historia</h1>
+                <p>
+                    Descripción
+                </p>
+            </div>
+        </section>
+
+        <section class="values">
+            <h2>Nuestros Valores</h2>
+            <div class="values-grid">
+                {Visions.map(vision => (
+                    <div class="value-card glass-card">
+                        <div class="value-icon">{vision.icon}</div>
+                        <h3>{vision.title}</h3>
+                        <p>{vision.description}</p>
+                    </div>
+                ))}
+            </div>
+        </section>
+    </main>
+</Layout>
+
+<style>
+    main{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+
+        .hero{
+            text-align: center;
+            margin-bottom: 4rem;
+            padding: 4rem 1rem;
+
+            .logo-container{
+                width: 200px;
+                height: 200px;
+                margin: 0 auto 2rem;
+                padding: 1rem;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .company-logo{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    transition: transform 0.3s ease;
+                }
+                &:hover .company-logo{
+                    transform: scale(1.05);
+                }
+            }
+            .hero-content{
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 2rem;
+
+                h1 {
+                    color: #fff;
+                    font-size: 2.5rem;
+                    margin-bottom: 1.5rem;
+                    text-shadow: 2px 2px 4px rgb(0 0 0 0.3);
+                }
+            }
+        }
+        h2{
+            color: #fff;
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            text-shadow: 2px 2px 4px rgba(0 0 0 0.3);
+        }
+        .glass-card{
+            background: var(--glass-background);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid var(--glass-border);
+            border: 12px;
+            box-shadow: var(--glass-shadow);
+        }
+        .values {
+            margin-bottom: 4rem;
+
+            .values-grid{
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 2rem;
+                padding: 1rem;
+
+                .value-card{
+                    padding: 2rem;
+                    text-align: center;
+
+                    .value-icon{
+                        font-size: 2.5rem;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    h3 {
+        color: #fff;
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+    }
+    p {
+        color: #fff;
+        line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+        .hero{
+            padding: 2rem 2rem;
+        }
+        .logo-container{
+            width: 150px;
+            height: 150px;
+        }
+        .values-grid{
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+        .value-card{
+            padding: 1.5rem;
+        }
+    }
+</style>
