@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Products from '../data/products.json';
+import CominSoonCard from '../components/CominSoonCard.astro'
 
 const { products } = Products || { products: [] };
 
@@ -46,6 +47,7 @@ const categories = products.length > 0
     ) : (
       <p class="no-categories">No hay categorías disponibles en este momento.</p>
     )}
+    <CominSoonCard />
   </main>
 </Layout>
 
