@@ -1,0 +1,105 @@
+---
+// filepath: c:\Users\Ivan Rueda\Documents\Github\Astro\rueda_leather_wallet_catalog\src\pages\productos\[category].astro
+import Layout from '../../layouts/Layout.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import { getCategoryData } from '../../utils/categoryUtils';
+
+export function getStaticPaths() {
+  return getCategoryData();
+}
+
+const { category, products } = Astro.props;
+---
+<Layout>
+  <main>
+    <div class="category-header">
+      <a href="/productos" class="back-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 12H5M12 19l-7-7 7-7" />
+        </svg>
+        Volver a productos
+      </a>
+      <h1>{category}</h1>
+    </div>
+
+    <div class="products-grid">
+      {products.map((product) => (
+        <ProductCard {...product} />
+      ))}
+    </div>
+  </main>
+</Layout>
+
+<style>
+  :root {
+    --text-color: #fff;
+    --background-color: var(--glass-background);
+    --border-color: var(--glass-border);
+    --shadow-color: rgba(0, 0, 0, 0.3);
+  }
+
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .category-header {
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .back-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    background: var(--background-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--border-color);
+    transition: all 0.2s ease;
+    align-self: flex-start;
+  }
+
+  .back-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateX(-4px);
+  }
+
+  h1 {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 2.5rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px var(--shadow-color);
+  }
+
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    main {
+      padding: 1rem;
+    }
+
+    .products-grid {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
+</style>
