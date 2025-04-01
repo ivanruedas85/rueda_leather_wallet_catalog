@@ -35,11 +35,13 @@ import BaseHead from "../components/BaseHead.astro";
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url('https://images.unsplash.com/photo-1557683316-973673baf926?w=1920');
+    background-image: url('/image/fondo_carteras.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
   }
 
   .content {
