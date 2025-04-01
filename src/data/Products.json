@@ -47,12 +47,6 @@
             "description": "Cartera clasica sin monedero",
             "image": "/image/photo_2024-03-19_15-20-33.png",
             "category": "Carteras_Caballeros"
-        },
-        {
-            "title": "Próximamente",
-            "description": "Próximamente más productos",
-            "image": "/image/cominsoon.png",
-            "category": "comin_soon"
         }
     ]
 }
