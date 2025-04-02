@@ -13,8 +13,8 @@ const generateSlug = (category) => {
 
 // Función para obtener la imagen de una categoría
 const getCategoryImage = (category) => {
-  if (!category) return '/image/cominsoon.png';
-  return products.find((product) => product.category === category)?.image || '/image/cominsoon.png';
+  if (!category) return '/image/cominsoon.webp';
+  return products.find((product) => product.category === category)?.image || '/image/cominsoon.webp';
 };
 
 // Obtener categorías únicas
