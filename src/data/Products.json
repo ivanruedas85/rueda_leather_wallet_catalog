@@ -1,6 +1,42 @@
 {
     "products": [
         {
+            "title": "Retro",
+            "description": "Maletin de mensajeria de multiples usos",
+            "image": "/image/photo_2024-04-08_10-10-10.webp",
+            "category": "Maletines"
+        },
+        {
+            "title": "Asli",
+            "description": "Maletin liso tamaño oficio tipo polo",
+            "image": "/image/photo_2024-04-08_10-19-54.webp",
+            "category": "Maletines"
+        },
+        {
+            "title": "Draco",
+            "description": "Maletin tamaño oficio con adorno dragon",
+            "image": "/image/photo_2024-06-26_20-22-50.webp",
+            "category": "Maletines"
+        },
+        {
+            "title": "Sajjad-ad modelo 2741",
+            "description": "Maletin De cuero tamaño carta",
+            "image": "/image/2741.webp",
+            "category": "Maletines"
+        },
+        {
+            "title": "Bolsa de namo",
+            "description": "Bolsa para dama de tamaño mediano en 2 pieles",
+            "image": "/image/photo_2024-05-09_16-51-26.webp",
+            "category": "Bolsas_dama"
+        },
+        {
+            "title": "Pechera mediana",
+            "description": "Pechera para mascotas de tamaño mediano",
+            "image": "/image/photo_2024-05-09_16-51-56.webp",
+            "category": "Mascotas"
+        },
+        {
             "title": "Bifold Horane",
             "description": "Cartera con monedero y tarjetero",
             "image": "/image/photo_2024-03-18_22-30-17.webp",
