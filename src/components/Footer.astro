@@ -2,6 +2,9 @@
 import CopyRight from './Copyright.astro';
 ---
 <footer class="footer">
+    <div class="footer-nav">
+      <a href="/terminos-y-condiciones">Terminos y condiciones</a>
+    </div>
     <div class="footer-content">
         <CopyRight />
     </div>
@@ -16,12 +19,36 @@ import CopyRight from './Copyright.astro';
       padding: 1.5rem 0;
       margin-top: 2rem;
       box-shadow: var(--glass-shadow);
+
+      .footer-nav{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+
+        a{
+          color: #f9fafe;
+          text-decoration: none;
+          font-size: 1rem;
+          margin-bottom: 10px;
+          transition: color 0.2s ease;
+
+          &:hover{
+            color: var(--white-color);
+            text-decoration: underline;
+          }
+        }
+      }
+      .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1rem;
+        text-align: center;
+      }
+      @media (max-width: 768px) {
+        .footer {
+          padding: 1rem 0;
+        }
+      }
     }
   
-    .footer-content {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 1rem;
-      text-align: center;
-    }
   </style>
