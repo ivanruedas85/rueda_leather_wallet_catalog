@@ -16,7 +16,9 @@ const modalId = `modal-${title.toLowerCase().replace(/\s+/g, '-')}`
 
 <div class="product-card">
   <div class="card-content" onclick={`modalManager.openModal('${modalId}')`}>
-    <img src={image} alt={title} class="product-image" />
+    <div class="image-container">
+      <img src={image} alt={title} class="product-image" />
+    </div>
     <div class="product-info">
       <h2>{title}</h2>
       <p class="description">{description}</p>
@@ -39,41 +41,97 @@ const modalId = `modal-${title.toLowerCase().replace(/\s+/g, '-')}`
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid var(--glass-border);
-    border-radius: 8px;
+    border-radius: 12px;
     overflow: hidden;
     box-shadow: var(--glass-shadow);
     transition: transform 0.2s;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+  }
 
-    &:hover {
-      transform: translateY(-4px);
+  .product-card:hover {
+    transform: translateY(-4px);
+  }
+
+  .card-content {
+    cursor: pointer;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-container {
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .product-card:hover .product-image {
+    transform: scale(1.05);
+  }
+
+  .product-info {
+    padding: 1.5rem;
+    padding-bottom: 0.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-actions {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: white;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .description {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.5;
+    margin: 0;
+    margin-bottom: 1rem;
+    flex: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  @media (max-width: 768px) {
+    .product-card {
+      height: 400px;
     }
-    .card-content{
-      cursor: pointer;
-      
-      .product-image {
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-      }
-      
-      .product-info {
-        padding: 1.5rem;
-      }
+
+    .image-container {
+      height: 180px;
     }
-    .card-actions{
-      padding: 0 1.5rem 1.5rem 1.5rem;
+
+    .product-info {
+      padding: 1rem;
+      padding-bottom: 0.5rem;
     }
+
+    .card-actions {
+      padding: 0 1rem 1rem 1rem;
+    }
+
     h2 {
-      margin: 0;
-      font-size: 1.25rem;
-      color: white;
-    }
-  
-    .description {
-      color: rgba(255, 255, 255, 0.8);
-      line-height: 1.5;
-      margin: 0;
-      margin-bottom: 1rem;
+      font-size: 1.1rem;
     }
   }
 </style>
