@@ -1,6 +1,30 @@
 {
     "products": [
         {
+            "title": "Big compact",
+            "description": "Maletin compacto, especial para laptop, estilo retro y moderno",
+            "image": "/image/photo_2024-03-31_12-39-17.webp",
+            "category": "Maletines"
+        },
+        {
+            "title": "Retro v3",
+            "description": "Maletin tamaño oficio con estilo retro liso y compacto",
+            "image": "/image/photo_2024-03-31_12-38-12.webp",
+            "category": "Maletines"
+        },
+        {
+            "title": "Retro v2",
+            "description": "Maletin estilo retro tamaño oficio",
+            "image": "/image/photo_2024-03-31_12-35-40.webp",
+            "category": "Maletines"
+        },
+        {
+            "title": "Small briefcase",
+            "description": "Maletin chico para mensajero",
+            "image": "/image/photo_2024-03-31_11-49-30.webp",
+            "category": "Maletines"
+        },
+        {
             "title": "Retro",
             "description": "Maletin de mensajeria de multiples usos",
             "image": "/image/photo_2024-04-08_10-10-10.webp",
