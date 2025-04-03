@@ -1,0 +1,106 @@
+---
+import Layout from '../layouts/Layout.astro'
+import TermsCond from '../data/terminos-y-condiciones.json'
+---
+
+<Layout>
+  <main>
+    <h1>Términos y Condiciones</h1>
+    
+    <div class="content">
+      <section>
+        {TermsCond.map((termino) => (
+          <div class="term" key={termino.id}>
+            <h2>{termino.title}</h2>
+            {Array.isArray(termino.description) ? (
+              <ul>
+                {termino.description.map((item, index) => (
+                  typeof item === 'string' ? (
+                    <li key={index}>{item}</li>
+                  ) : (
+                    <ul key={index}>
+                      {item.delivery_times.map((time, subIndex) => (
+                        <li key={subIndex}>{time}</li>
+                      ))}
+                    </ul>
+                  )
+                ))}
+              </ul>
+            ) : (
+              <p>{termino.description}</p>
+            )}
+          </div>
+        ))}
+      </section>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  h1 {
+    color: var(--white-color);
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .content {
+    background: var(--glass-background);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: var(--glass-shadow);
+  }
+
+  .term {
+    margin-bottom: 2rem;
+  }
+
+  .term:last-child {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  p, li {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    padding-left: 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    main {
+      padding: 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .content {
+      padding: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+    }
+  }
+</style>
