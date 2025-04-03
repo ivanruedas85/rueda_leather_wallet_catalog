@@ -31,9 +31,9 @@ const {id} = Astro.props
         box-sizing: border-box;
 
         .modal-content {
-            background: rgba(23, 23, 23, 0.95);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
+            background: var(--glass-background);
+            backdrop-filter: var(--glass-blur);
+            -webkit-backdrop-filter: var(--glass-blur);
             border: 1px solid var(--glass-border);
             border-radius: 12px;
             box-shadow: var(--glass-shadow);
