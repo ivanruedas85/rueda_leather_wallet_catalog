@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Aceptación de los Términos",
+        "description": "Al acceder y utilizar este sitio web, usted acepta estar sujeto a estos términos y condiciones de uso. Si no está de acuerdo con alguno de estos términos, le rogamos que no utilice nuestro sitio web."
+    },
+    {
+        "id": 2,
+        "title": "Uso del Sitio",
+        "description": "Este sitio web está destinado únicamente a proporcionar información sobre nuestros productos y servicios. No está permitido el uso del sitio para fines ilegales o no autorizados."
+    },
+    {
+        "id": 3,
+        "title": "Propiedad Intelectual",
+        "description": "Todo el contenido de este sitio web, incluyendo textos, gráficos, logos, imágenes y software, está protegido por derechos de autor y otras leyes de propiedad intelectual."
+    },
+    {
+        "id": 4,
+        "title": "Política de Privacidad",
+        "description": "Su privacidad es importante para nosotros. Consulte nuestra Política de Privacidad para entender cómo recopilamos, usamos y protegemos su información personal."
+    },
+    {
+        "id": 5,
+        "title": "Limitación de Responsabilidad",
+        "description": "No nos hacemos responsables de ningún daño directo, indirecto, incidental o consecuente que pueda surgir del uso de nuestro sitio web o servicios."
+    },
+    {
+        "id": 6,
+        "title": "Política de Compra",
+        "description": [
+            "El tipo de piel se expone durante la cotización del producto.",
+            "El precio del producto depende de los insumos, mano de obra y tipo de piel.",
+            "El tiempo de entrega se determina según el proyecto y la disposición de la piel. Ejemplo:",
+            {
+                "delivery_times": [
+                    "Carteras para caballero: 3 a 6 días hábiles.",
+                    "Maletines, maletas: 15 a 20 días hábiles.",
+                    "Carteras para dama: 3 a 10 días hábiles."
+                ]
+            },
+            "El grabado en láser tiene un costo de 30.00 a 50 pesos según el proyecto a realizar."
+        ]
+    }
+]
