@@ -74,6 +74,15 @@ Dentro de este proyecto se encuentra la siguiente estructura:
 └───📄 tsconfig.json
 ```
 
-# Autor
+## Autor
 
 **Ivanruedas85**
+
+## Galería
+
+![img1](./src//assets/289shots_so.png)
+![img3](./src//assets/471shots_so.png)
+![img6](./src//assets/984shots_so.png)
+![img2](./src//assets/470_1x_shots_so.png)
+![img4](./src//assets/657_1x_shots_so.png)
+![img5](./src//assets/706_1x_shots_so.png)
