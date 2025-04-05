@@ -1,48 +1,79 @@
-# Astro Starter Kit: Basics
+# Rueda Leather Wallets Catalogo
 
-```sh
-npm create astro@latest -- --template basics
-```
+Este proyecto está construido utilizando **Astro**, un moderno *framework* para la creación de sitios web rápidos y eficientes. La estructura del proyecto incluye directorios como `/public` para archivos estáticos y `/src` para componentes y páginas, siguiendo las mejores prácticas de desarrollo web.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+El repositorio también contiene archivos de configuración esenciales como `astro.config.mjs` y `tsconfig.json`, facilitando la personalización y el mantenimiento del sitio.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Este ***catálogo digital*** refleja el compromiso de la marca con la calidad y la artesanía, ofreciendo a los clientes una plataforma en línea para explorar y adquirir productos de cuero hechos a mano.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Estructura del proyecto
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
+Dentro de este proyecto se encuentra la siguiente estructura:
 
 ```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+├───📁 public/
+│   ├───📁 image/
+│   │   ├───📄 2741.webp
+│   │   ├───📄 cominsoon.webp
+│   │   ├───📄 fondo_carteras.webp
+│   │   ├───📄 photo_2024-03-18_21-56-18.webp
+│   │   ├───📄 photo_2024-03-18_22-20-22.webp
+│   │   ├───📄 photo_2024-03-18_22-30-17.webp
+│   │   ├───📄 photo_2024-03-18_23-05-35.webp
+│   │   ├───📄 photo_2024-03-18_23-14-50.webp
+│   │   ├───📄 photo_2024-03-18_23-50-44.webp
+│   │   ├───📄 photo_2024-03-18_23-59-17.webp
+│   │   ├───📄 photo_2024-03-19_00-00-51.webp
+│   │   ├───📄 photo_2024-03-19_15-20-33.webp
+│   │   ├───📄 photo_2024-03-31_11-49-30.webp
+│   │   ├───📄 photo_2024-03-31_12-35-40.webp
+│   │   ├───📄 photo_2024-03-31_12-38-12.webp
+│   │   ├───📄 photo_2024-03-31_12-39-17.webp
+│   │   ├───📄 photo_2024-03-31_12-50-13.webp
+│   │   ├───📄 photo_2024-03-31_12-59-17.webp
+│   │   ├───📄 photo_2024-04-08_10-10-10.webp
+│   │   ├───📄 photo_2024-04-08_10-19-54.webp
+│   │   ├───📄 photo_2024-05-09_16-51-26.webp
+│   │   ├───📄 photo_2024-05-09_16-51-56.webp
+│   │   └───📄 photo_2024-06-26_20-22-50.webp
+│   ├───📄 apple-touch-icon.png
+│   ├───📄 favicon-32x32.png
+│   ├───📄 favicon-96x96.png
+│   ├───📄 favicon.ico
+│   ├───📄 favicon.svg
+│   ├───📄 logo-color.png
+│   ├───📄 logo-color.svg
+│   ├───📄 logo-color.webp
+│   ├───📄 site.webmanifest
+│   ├───📄 web-app-manifest-192x192.png
+│   └───📄 web-app-manifest-512x512.png
+├───📁 src/
+│   ├───📁 assets/
+│   │   ├───📄 289shots_so.png
+│   │   ├───📄 470_1x_shots_so.png
+│   │   ├───📄 471shots_so.png
+│   │   ├───📄 657_1x_shots_so.png
+│   │   ├───📄 706_1x_shots_so.png
+│   │   ├───📄 984shots_so.png
+│   │   └───📄 background.svg
+│   ├───📁 components/
+│   ├───📁 data/
+│   │   ├───📄 historia.json
+│   │   ├───📄 NavLinks.json
+│   │   ├───📄 Products.json
+│   │   ├───📄 terminos-y-condiciones.json
+│   │   └───📄 vision.json
+│   ├───📁 layouts/
+│   ├───📁 pages/
+│   ├───📁 utils/
+│   │          └───📄 categoryUtils.js
+│   └───📄 const.ts
+├───📄 package-lock.json
+├───📄 package.json
+├───📄 README.md
+└───📄 tsconfig.json
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+# Autor
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+**Ivanruedas85**
