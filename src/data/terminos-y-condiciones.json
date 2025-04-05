@@ -26,11 +26,11 @@
     },
     {
         "id": 6,
-        "title": "Política de Compra",
+        "title": "Política de Compra para productos hechos con piel vacuna",
         "description": [
             "El tipo de piel se expone durante la cotización del producto.",
             "El precio del producto depende de los insumos, mano de obra y tipo de piel.",
-            "El tiempo de entrega se determina según el proyecto y la disposición de la piel. Ejemplo:",
+            "El tiempo de entrega se determina según el producto y la disposición de la piel. Ejemplo:",
             {
                 "delivery_times": [
                     "Carteras para caballero: 3 a 6 días hábiles.",
@@ -38,7 +38,24 @@
                     "Carteras para dama: 3 a 10 días hábiles."
                 ]
             },
-            "El grabado en láser tiene un costo de 30.00 a 50 pesos según el proyecto a realizar."
+            "El grabado en láser tiene un costo de 30.00 a 50 pesos según el producto a realizar."
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Política de Compra para productos hechos con piel exótica",
+        "description": [
+            "El tipo de piel se expone durante la cotización del producto.",
+            "El precio del producto depende de los insumos, mano de obra y tipo de piel.",
+            "El tiempo de entrega se determina según el producto y la disposición de la piel. Ejemplo:",
+            {
+                "delivery_times": [
+                    "Para la elaboración del producto con piel exótica se pide un anticipo del 50% según el valor de dicho producto.",
+                    "El tiempo de espera para la entrega del o los productos es de 30 días hábiles, sujetos a cambios por la paquetería.",
+                    "Los precios están sujetos a cambios con el proveedor."
+                ]
+            },
+            "El grabado en láser tiene un costo de 30.00 a 50.00 pesos según el producto a realizar."
         ]
     }
 ]
