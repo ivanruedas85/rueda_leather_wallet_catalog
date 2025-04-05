@@ -1,110 +1,110 @@
 {
     "products": [
         {
-            "title": "Big compact",
+            "title": "RLW-MP-007",
             "description": "Maletin compacto, especial para laptop, estilo retro y moderno",
             "image": "/image/photo_2024-03-31_12-39-17.webp",
             "category": "Maletines"
         },
         {
-            "title": "Retro v3",
+            "title": "RLW-MP-006",
             "description": "Maletin tamaño oficio con estilo retro liso y compacto",
             "image": "/image/photo_2024-03-31_12-38-12.webp",
             "category": "Maletines"
         },
         {
-            "title": "Retro v2",
+            "title": "RLW-MP-005",
             "description": "Maletin estilo retro tamaño oficio",
             "image": "/image/photo_2024-03-31_12-35-40.webp",
             "category": "Maletines"
         },
         {
-            "title": "Small briefcase",
+            "title": "RLW-MP-004",
             "description": "Maletin chico para mensajero",
             "image": "/image/photo_2024-03-31_11-49-30.webp",
             "category": "Maletines"
         },
         {
-            "title": "Retro",
+            "title": "RLW-MP-003",
             "description": "Maletin de mensajeria de multiples usos",
             "image": "/image/photo_2024-04-08_10-10-10.webp",
             "category": "Maletines"
         },
         {
-            "title": "Asli",
+            "title": "RLW-MP-002",
             "description": "Maletin liso tamaño oficio tipo polo",
             "image": "/image/photo_2024-04-08_10-19-54.webp",
             "category": "Maletines"
         },
         {
-            "title": "Draco",
+            "title": "RLW-MP-002",
             "description": "Maletin tamaño oficio con adorno dragon",
             "image": "/image/photo_2024-06-26_20-22-50.webp",
             "category": "Maletines"
         },
         {
-            "title": "Sajjad-ad modelo 2741",
+            "title": "RLW-MP-001",
             "description": "Maletin De cuero tamaño carta",
             "image": "/image/2741.webp",
             "category": "Maletines"
         },
         {
-            "title": "Bolsa de namo",
+            "title": "RLW-BD-001",
             "description": "Bolsa para dama de tamaño mediano en 2 pieles",
             "image": "/image/photo_2024-05-09_16-51-26.webp",
             "category": "Bolsas_dama"
         },
         {
-            "title": "Pechera mediana",
+            "title": "RLW-PUPY-001",
             "description": "Pechera para mascotas de tamaño mediano",
             "image": "/image/photo_2024-05-09_16-51-56.webp",
             "category": "Mascotas"
         },
         {
-            "title": "Bifold Horane",
+            "title": "RLW-CC-008",
             "description": "Cartera con monedero y tarjetero",
             "image": "/image/photo_2024-03-18_22-30-17.webp",
             "category": "Carteras_Caballeros"
         },
         {
-            "title": "Bifoldd CoinPunch",
+            "title": "RLW-CC-007",
             "description": "Cartera Con monedero",
             "image": "/image/photo_2024-03-18_23-59-17.webp",
             "category": "Carteras_Caballeros"
         },
         {
-            "title": "Long Wallet Bespoke",
+            "title": "RLW-CC-006",
             "description": "Cartera Larga para multiples tarjetas y monedero grande",
             "image": "/image/photo_2024-03-18_23-50-44.webp",
             "category": "Carteras_Caballeros"
         },
         {
-            "title": "Bifold Leathergood",
+            "title": "RLW-CC-005",
             "description": "Cartera minimalista vertical",
             "image": "/image/photo_2024-03-18_22-20-22.webp",
             "category": "Carteras_Caballeros"
         },
         {
-            "title": "Bifold Glowforge",
+            "title": "RLW-CC-004",
             "description": "Cartera minimalista horizontal",
             "image": "/image/photo_2024-03-18_23-14-50.webp",
             "category": "Carteras_Caballeros"
         },
         {
-            "title": "Azul Majestuoso",
+            "title": "RLW-CC-003",
             "description": "La cartera 'Azul Majestuoso' combina sofisticación y funcionalidad en un diseño compacto y elegante. Su exterior presenta un acabado en cuero azul con una textura que imita la piel de cocodrilo, resaltando su carácter lujoso. Las costuras contrastantes en tono marrón añaden un detalle artesanal que realza su estética. Su estructura plegable permite un almacenamiento eficiente, ofreciendo una apariencia refinada y atemporal.",
             "image": "/image/photo_2024-03-18_21-56-18.webp",
             "category": "Carteras_Caballeros"
         },
         {
-            "title": "Marfil Elegante",
-            "description": "Es un accesorio refinado con un diseño simétrico y funcional. Confeccionada en un material de tono crema o marfil, su estructura plegable destaca por costuras visibles en contraste, agregando un detalle artesanal y sofisticado. Cuenta con múltiples ranuras en ambos lados internos, diseñadas para una organización eficiente. Además, incorpora dos broches metálicos que brindan seguridad y un toque distintivo a su diseño minimalista y moderno.",
+            "title": "RLW-CC-002",
+            "description": "La cartera 'Marfil Elegante' es un accesorio refinado con un diseño simétrico y funcional. Confeccionada en un material de tono crema o marfil, su estructura plegable destaca por costuras visibles en contraste, agregando un detalle artesanal y sofisticado. Cuenta con múltiples ranuras en ambos lados internos, diseñadas para una organización eficiente. Además, incorpora dos broches metálicos que brindan seguridad y un toque distintivo a su diseño minimalista y moderno.",
             "image": "/image/photo_2024-03-19_00-00-51.webp",
             "category": "Carteras_Caballeros"
         },
         {
-            "title": "Ébano Clásico",
-            "description": "Es un accesorio elegante y sofisticado, confeccionado en material negro con un diseño minimalista y compacto. Su estructura plegable presenta costuras finamente detalladas, lo que resalta su durabilidad y refinamiento. Cuenta con múltiples ranuras en su interior, diseñadas para ofrecer una organización eficiente sin sacrificar estilo. Su acabado liso y mate le da un toque moderno, ideal para quienes buscan funcionalidad con un aire de distinción.",
+            "title": "RLW-CC-001",
+            "description": "La cartera 'Ébano Clásico' es un accesorio elegante y sofisticado, confeccionado en material negro con un diseño minimalista y compacto. Su estructura plegable presenta costuras finamente detalladas, lo que resalta su durabilidad y refinamiento. Cuenta con múltiples ranuras en su interior, diseñadas para ofrecer una organización eficiente sin sacrificar estilo. Su acabado liso y mate le da un toque moderno, ideal para quienes buscan funcionalidad con un aire de distinción.",
             "image": "/image/photo_2024-03-19_15-20-33.webp",
             "category": "Carteras_Caballeros"
         }
