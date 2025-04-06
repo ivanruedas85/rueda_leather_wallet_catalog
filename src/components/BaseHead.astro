@@ -1,7 +1,6 @@
 ---
 import { NAME_SITE_MIN } from "../const";
-
-
+import {ViewTransitions} from 'astro:transitions'
 ---
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width" />
@@ -12,3 +11,5 @@ import { NAME_SITE_MIN } from "../const";
 <link rel="manifest" href="/site.webmanifest" />
 <meta name="generator" content={Astro.generator} />
 <title>{NAME_SITE_MIN}</title>
+
+<ViewTransitions />
