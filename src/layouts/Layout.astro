@@ -12,7 +12,7 @@ import BaseHead from "../components/BaseHead.astro";
 	<body>
     <div class="background"></div>
 		<NavBar />
-		<div class="content" transition:animate="slide">
+		<div class="content" transition:animate="fade">
 			<slot />
 		</div>
     <Footer />
@@ -21,7 +21,7 @@ import BaseHead from "../components/BaseHead.astro";
 
 <style is:global>
   :root {
-    --glass-background: rgba(50, 32, 22, 0.50);
+    --glass-background: rgba(50, 32, 22, 0.85);
     --glass-blur: blur(17px) saturate(180%);
     --glass-border: rgba(239,234,210, 0.125);
     --glass-shadow: 0 10px 15px -3px rgba(88, 60, 43, 0.1);
