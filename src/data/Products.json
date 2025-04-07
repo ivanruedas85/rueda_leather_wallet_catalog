@@ -1,6 +1,18 @@
 {
     "products": [
         {
+            "title": "RLW-CD-002",
+            "description": "Cartera de Cuero 'Zipper' combina artesanía clásica con un toque moderno. Fabricada en cuero premium de acabado liso, esta pieza destaca por sus costuras en contraste y su robusto cierre de cremallera que asegura total protección.",
+            "image": "/image/photo_2025-03-01_15-37-11.webp",
+            "category": "Carteras_Damas"
+        },
+        {
+            "title": "RLW-CD-001",
+            "description": "Cartera Ejecutiva 'Toscana', diseñada para quienes valoran el estilo y la organización. Confeccionada en un refinado acabado tipo gamuza, esta cartera combina sofisticación y funcionalidad en cada detalle.",
+            "image": "/image/photo_2025-03-01_15-36-33.webp",
+            "category": "Carteras_Damas"
+        },
+        {
             "title": "RLW-MP-007",
             "description": "Descubre la elegancia atemporal del Maletín Ejecutivo 'Aurum Classic', una pieza diseñada para profesionales que valoran la distinción y la funcionalidad. Confeccionado en cuero de alta calidad en tono ámbar con detalles en negro profundo, este maletín combina sofisticación y resistencia. Su diseño estructurado con herrajes metálicos y costuras reforzadas garantiza durabilidad sin sacrificar estilo. Ideal para transportar documentos, dispositivos electrónicos y esenciales del día a día con un toque de clase.",
             "image": "/image/photo_2024-03-31_12-39-17.webp",
