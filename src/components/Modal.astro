@@ -15,7 +15,7 @@ const {id} = Astro.props
     </div>
 </div>
 
-<style type="css">
+<style>
     .modal {
         display: none;
         position: fixed;
@@ -23,7 +23,7 @@ const {id} = Astro.props
         left: 0;
         width: 100%;
         height: 100vh;
-        background-color: rgba(0 0 0 0.75);
+        background-color: rgba(0, 0, 0, 0.75);
         z-index: 10;
         backdrop-filter: blur(8px);
         overflow-y: auto;
@@ -83,7 +83,7 @@ const {id} = Astro.props
                 color: var(--white-color);
                 padding: 2rem;
                 overflow-y: auto;
-                max-height: calc(100vh - 8rem);
+                max-height: calc(100vh - 8rem); /**calc(100vh - 8rem) */
             }
         }
 
@@ -101,6 +101,11 @@ const {id} = Astro.props
               padding: 1.5rem;
             }
         }
+        /*@media (max-width: 480px) {
+            .modal-content {
+                
+            }
+        }*/
     }
 </style>
 

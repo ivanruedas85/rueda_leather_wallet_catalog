@@ -45,9 +45,11 @@ const modalId = `modal-${title.toLowerCase().replace(/\s+/g, '-')}`
     overflow: hidden;
     box-shadow: var(--glass-shadow);
     transition: transform 0.2s;
-    height: 450px;
+    height: auto;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
 
   .product-card:hover {
@@ -62,11 +64,16 @@ const modalId = `modal-${title.toLowerCase().replace(/\s+/g, '-')}`
   }
 
   .image-container {
-    height: 200px;
+    width: 100%;
+    padding-top: 75%; /* 4:3 Aspect Ratio */
+    position: relative;
     overflow: hidden;
   }
 
   .product-image {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -91,8 +98,8 @@ const modalId = `modal-${title.toLowerCase().replace(/\s+/g, '-')}`
 
   h2 {
     margin: 0;
-    font-size: 1.25rem;
-    color: white;
+    font-size: clamp(1rem, 1.25vw, 1.25rem);
+    color: var(--white-color);
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
@@ -110,15 +117,12 @@ const modalId = `modal-${title.toLowerCase().replace(/\s+/g, '-')}`
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-size: clamp(0.875rem, 1vw, 1rem);
   }
 
   @media (max-width: 768px) {
     .product-card {
-      height: 400px;
-    }
-
-    .image-container {
-      height: 180px;
+      min-height: 350px;
     }
 
     .product-info {
@@ -129,9 +133,13 @@ const modalId = `modal-${title.toLowerCase().replace(/\s+/g, '-')}`
     .card-actions {
       padding: 0 1rem 1rem 1rem;
     }
-
-    h2 {
-      font-size: 1.1rem;
+  }
+  @media (max-width: 480px) {
+    .product-card {
+      min-height: 300px;
+    }
+    .image-container{
+      padding-top: 66.67%; /* 3:2 ASpect Ratio para pantallas pequeñas */
     }
   }
 </style>

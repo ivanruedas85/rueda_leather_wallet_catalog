@@ -20,23 +20,22 @@ const imageUrl = "/image/cominsoon.webp";
     -webkit-backdrop-filter: var(--glass-blur);
     border: 1px solid var(--glass-border);
     border-radius: 12px;
-    padding: 2rem;
+    padding: clamp(1rem, 2.5vw, 2rem); /* Ajuste dinámico del padding */
     text-align: center;
-    position: relative;
-    overflow: hidden;
-    grid-column: 1 / -1;
-    margin-top: 2rem;
-    height: 300px;
+    margin: 2rem auto;
+    min-height: 200px;
     width: 100%;
+    max-width: 600px; /* Limitar el ancho máximo */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-shadow: var(--glass-shadow);
   }
 
   .image-container {
     width: 100%;
-    max-width: 300px;
+    max-width: 250px; /* Ajuste dinámico del tamaño de la imagen */
     height: auto;
     overflow: hidden;
     border-radius: 8px;
@@ -46,23 +45,48 @@ const imageUrl = "/image/cominsoon.webp";
     width: 100%;
     height: auto;
     object-fit: cover;
+    transition: transform 0.3s ease; /* Animación suave */
+  }
+
+  .coming-soon-card:hover .image-container img {
+    transform: scale(1.05); /* Efecto de zoom al pasar el cursor */
   }
 
   .message h2 {
-    font-size: 1.5rem;
+    font-size: clamp(1.25rem, 2vw, 1.75rem); /* Tamaño dinámico del texto */
     color: var(--white-color);
-    margin: 0;
+    margin: 1rem 0 0;
   }
 
   @media (max-width: 768px) {
     .coming-soon-card {
-      padding: 1.5rem;
-      margin-top: 1.5rem;
-      height: 250px;
+      padding: 1rem;
+      margin: 1.5rem auto;
+      min-height: 180px;
+    }
+
+    .image-container {
+      max-width: 200px; /* Reducir el tamaño de la imagen en pantallas pequeñas */
     }
 
     .message h2 {
-      font-size: 1.25rem;
+      font-size: 1.25rem; /* Ajustar el tamaño del texto */
+    }
+  }
+
+  @media (max-width: 480px) {
+    .coming-soon-card {
+      padding: 0.75rem;
+      margin: 1rem auto;
+      min-height: 150px;
+    }
+
+    .image-container {
+      max-width: 150px; /* Imagen más pequeña en pantallas muy pequeñas */
+    }
+
+    .message h2 {
+      font-size: 1rem; /* Texto más pequeño en pantallas muy pequeñas */
     }
   }
 </style>
