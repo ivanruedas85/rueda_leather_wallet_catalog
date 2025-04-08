@@ -1,0 +1,16 @@
+[
+    {
+      "title": "Pack Ejecutivo Premium",
+      "price": 299.99,
+      "description": "Conjunto exclusivo que incluye maletín ejecutivo, billetera y tarjetero a un precio especial.",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&q=80",
+      "category": "Especiales"
+    },
+    {
+      "title": "Duo Elegante Dama",
+      "price": 159.99,
+      "description": "Combinación perfecta de cartera de noche y monedero haciendo juego.",
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&q=80",
+      "category": "Especiales"
+    }
+]
