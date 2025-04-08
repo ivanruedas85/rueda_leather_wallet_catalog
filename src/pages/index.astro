@@ -3,12 +3,14 @@ import Layout from '../layouts/Layout.astro';
 import ProductCard from '../components/ProductCard.astro';
 import Products from '../data/products.json';
 import { NAME_SITE } from '../const';
+import SpecialHero from '../components/SpecialHero.astro';
 
 const {products} = Products;
 ---
 
 <Layout>
 	<main>
+		<SpecialHero />
 		<h1>{NAME_SITE}</h1>
 		<div class="products-grid">
 			{products.map((product) => (
