@@ -1,11 +1,11 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import ProductCard from '../components/ProductCard.astro';
-import Products from '../data/products.json';
-import { NAME_SITE } from '../const';
-import SpecialHero from '../components/SpecialHero.astro';
+import Layout from "../layouts/Layout.astro";
+import ProductCard from "../components/ProductCard.astro";
+import Products from "../data/products.json";
+import { NAME_SITE } from "../const";
+import SpecialHero from "../components/SpecialHero.astro";
 
-const {products} = Products;
+const { products } = Products;
 ---
 
 <Layout>
@@ -13,36 +13,34 @@ const {products} = Products;
 		<SpecialHero />
 		<h1>{NAME_SITE}</h1>
 		<div class="products-grid">
-			{products.map((product) => (
-				<ProductCard {...product} />
-			))}
+			{products.map((product) => <ProductCard {...product} />)}
 		</div>
 	</main>
 </Layout>
 
 <style>
 	main {
-	  max-width: 1200px;
-	  margin: 0 auto;
-	  padding: 2rem;
-	  h1 {
-		text-align: center;
-		color: white;
-		margin-bottom: 2rem;
-		font-size: 2.5rem;
-		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-	  }
-	  .products-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-		gap: 2rem;
-		padding: 1rem;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 2rem;
+		h1 {
+			text-align: center;
+			color: white;
+			margin-bottom: 2rem;
+			font-size: 2.5rem;
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 		}
-		@media (max-width: 768px) {
-	  		.products-grid {
-				grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-				gap: 1rem;
-	  		}
+		.products-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+			gap: 2rem;
+			padding: 1rem;
+		}
+	}
+	@media (max-width: 768px) {
+		.products-grid {
+			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+			gap: 1rem;
 		}
 	}
 </style>
