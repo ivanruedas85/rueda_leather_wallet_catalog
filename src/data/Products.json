@@ -1,6 +1,18 @@
 {
     "products": [
         {
+            "title": "RLW-CD-003",
+            "description": "Cartera Artesanal 'Tierra' Elegante cartera de cuero marrón oscuro, elaborada artesanalmente con costuras cuidadosas y detalles distintivos. Su diseño clásico y funcional ofrece múltiples compartimentos para tarjetas y billetes.",
+            "image": "/image/photo_2025-05-14_11-56-38.webp",
+            "category": "Carteras_Damas"
+        },
+        {
+            "title": "RLW-BD-002",
+            "description": "Bolsa de Cuero 'Tote Elegance' combina sofisticación y funcionalidad en un diseño artesanal único. Confeccionada en cuero genuino de alta calidad, su cuerpo principal en tono negro mate contrasta elegantemente.",
+            "image": "/image/tote-mother-day.webp",
+            "category": "Bolsas_dama"
+        },
+        {
             "title": "RLW-CD-002",
             "description": "Cartera de Cuero 'Zipper' combina artesanía clásica con un toque moderno. Fabricada en cuero premium de acabado liso, esta pieza destaca por sus costuras en contraste y su robusto cierre de cremallera que asegura total protección.",
             "image": "/image/photo_2025-03-01_15-37-11.webp",
