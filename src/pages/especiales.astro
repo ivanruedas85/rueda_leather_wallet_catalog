@@ -2,32 +2,32 @@
 import Layout from "../layouts/Layout.astro";
 import ProductCard from "../components/ProductCard.astro";
 import { isSpecialActive } from "../utils/dateUtils";
-import SpecialProducts from '../data/SpecialProducts.json'
+import SpecialProducts from "../data/SpecialProducts.json";
 
 if (!isSpecialActive()) {
-    return Astro.redirect('/484')
+    return Astro.redirect("/484");
 }
 ---
 
 <Layout>
     <main>
         <div class="special-header">
-            <h1>👛✨PAQUETES ESPECIALES DE BOLSA + CARTERA✨👛</h1>
-            <p class="promotion-text">Sorprende a mamá con el regalo perfecto: un combo exclusivo de bolsa y cartera diseñado para mujeres únicas, fuertes y con mucho estilo... ¡como ella! 💪❤️</p>
+            <h1>🎁 El regalo perfecto para papá está aquí</h1>
+            <p class="promotion-text">
+                Sorpréndelo con una cartera de cuero elegante y duradera.
+            </p>
             <dl>
-                <dt>🎀 Incluye:</dt>
-                <dd class="">Bolsa de diseño moderno y elegante</dd>
-                <dd class="">Cartera a juego, práctica y chic</dd>
-                <dd class="">🌸 Edición limitada para el Día de las Madres 🌸</dd>
+                <dt>👜 Carteras para caballero:</dt>
+                <dd class="">Piel genuina</dd>
+                <dd class="">Diseños modernos y clásicos</dd>
+                <dd class="">Calidad premium</dd>
             </dl>
             <div class="countdown-banner">
-                <p>📆 Solo disponible hasta el 10 de mayo o agotar existencias</p>
+                <p>📆 Solo disponible hasta el 15 de junio</p>
             </div>
         </div>
         <div class="product-grid">
-            {SpecialProducts.map(product => (
-                <ProductCard {...product} />
-            ))}
+            {SpecialProducts.map((product) => <ProductCard {...product} />)}
         </div>
     </main>
 </Layout>
@@ -36,53 +36,57 @@ if (!isSpecialActive()) {
     .special-header {
         margin-bottom: 3rem;
         padding: 2rem;
-        background: linear-gradient(135deg, rgba(37,99,235,0.1) 0%, rgba(228,38,38,0.1) 100%);/** */
+        background: linear-gradient(
+            135deg,
+            rgba(37, 99, 235, 0.1) 0%,
+            rgba(228, 38, 38, 0.1) 100%
+        ); /** */
         border-radius: 16px;
         backdrop-filter: var(--glass-blur);
         -webkit-backdrop-filter: var(--glass-blur);
         border: 1px solid rgba(255, 255, 255, 0.2);
         z-index: 10;
     }
-    dl{
+    dl {
         text-align: center;
     }
-    dt,dd{
+    dt,
+    dd {
         color: var(--white-color);
     }
-    dt{
+    dt {
         font-size: clamp(2rem, 4vw, 2rem);
         font-weight: 600;
     }
-    dd{
+    dd {
         font-size: clamp(1.5rem, 4vw, 1.5rem);
         font-weight: 500;
     }
-    h1{
+    h1 {
         text-align: center;
         color: var(--white-color);
         font-size: clamp(2rem, 4vw, 3rem);
         margin-bottom: 1rem;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     }
-    .promotion-text{
-        color: rgba(255,255,255,0.9);
+    .promotion-text {
+        color: rgba(255, 255, 255, 0.9);
         font-size: clamp(1.1rem, 2vw, 1.5rem);
         margin-bottom: 1.5rem;
     }
-    .countdown-banner{
+    .countdown-banner {
         background: rgba(220, 38, 38, 0.2);
         padding: 1rem;
         border-radius: 8px;
         margin-top: 1.5rem;
-
     }
-    p{
+    p {
         text-align: center;
         color: var(--white-color);
         font-size: clamp(0.9rem, 1.5vw, 1.1rem);
         margin: 0;
     }
-    .product-grid{
+    .product-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
         gap: 2rem;
@@ -97,7 +101,7 @@ if (!isSpecialActive()) {
                 padding: 1.5rem;
                 margin-bottom: 2rem;
             }
-            .product-grid{
+            .product-grid {
                 grid-template-columns: repeat(auto-fit, mimax(250px, 1fr));
                 gap: 1.5rem;
             }
