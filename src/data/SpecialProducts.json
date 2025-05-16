@@ -1,9 +1,16 @@
 [
-    {
-      "title": "Tote Elegance",
-      "price": 299.99,
-      "description": "combina sofisticación y funcionalidad en un diseño artesanal único. Confeccionada en cuero genuino de alta calidad, su cuerpo principal en tono negro mate contrasta elegantemente.",
-      "image": "/image/tote-mother-day.webp",
-      "category": "Especiales" 
-    }
+  {
+    "title": "Cartera minimalista",
+    "price": 299.99,
+    "description": "combina sofisticación y funcionalidad en un diseño artesanal único. Confeccionada en cuero genuino de alta calidad.",
+    "image": "/image/7ae509ea.webp",
+    "category": "Especiales"
+  },
+  {
+    "title": "Cartera minimalista",
+    "price": 299.99,
+    "description": "combina sofisticación y funcionalidad en un diseño artesanal único. Confeccionada en cuero genuino de alta calidad.",
+    "image": "/image/7ae509ea.webp",
+    "category": "Especiales"
+  }
 ]
