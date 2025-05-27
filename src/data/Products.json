@@ -1,6 +1,12 @@
 {
     "products": [
         {
+            "title": "RLW-CD-004",
+            "description": "Cartera Roja Clásica. Elegante cartera larga de cuero rojo, con cierre de cremallera y múltiples compartimentos para tarjetas y billetes.",
+            "image": "/image/resized_photo_2025-03-01_15-38-11.webp",
+            "category": "Carteras_Damas"
+        },
+        {
             "title": "RLW-CD-003",
             "description": "Cartera Artesanal 'Tierra' Elegante cartera de cuero marrón oscuro, elaborada artesanalmente con costuras cuidadosas y detalles distintivos. Su diseño clásico y funcional ofrece múltiples compartimentos para tarjetas y billetes.",
             "image": "/image/photo_2025-05-14_11-56-38.webp",
