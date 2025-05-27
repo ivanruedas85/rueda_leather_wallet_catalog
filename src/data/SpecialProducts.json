@@ -1,16 +1,30 @@
 [
   {
-    "title": "Cartera minimalista",
+    "title": "Fuego y Noche",
     "price": 299.99,
-    "description": "combina sofisticación y funcionalidad en un diseño artesanal único. Confeccionada en cuero genuino de alta calidad.",
+    "description": "Elegante cartera de piel bicolor, combinando el rojo intenso con el negro clásico.  Su diseño compacto y sofisticado la hace perfecta para el uso diario.",
     "image": "/image/7ae509ea.webp",
     "category": "Especiales"
   },
   {
-    "title": "Cartera minimalista",
+    "title": "Cartera Ébano",
     "price": 299.99,
-    "description": "combina sofisticación y funcionalidad en un diseño artesanal único. Confeccionada en cuero genuino de alta calidad.",
-    "image": "/image/7ae509ea.webp",
+    "description": "refleja sobriedad y refinamiento en cada costura. es perfecta para Eventos formales, uso ejecutivo, estilo minimalista.",
+    "image": "/image/photo_2025-05-25_15-58-07.webp",
+    "category": "Especiales"
+  },
+  {
+    "title": "Cartera Roble",
+    "price": 299.99,
+    "description": "La Cartera Roble destaca por su diseño minimalista y estructura sólida, confeccionada en cuero legítimo de alta calidad.",
+    "image": "/image/photo_2025-05-25_15-57-57.webp",
+    "category": "Especiales"
+  },
+  {
+    "title": "Cartera Álamo",
+    "price": 299.99,
+    "description": "combina elegancia rústica y funcionalidad moderna en un diseño artesanal de cuero genuino.",
+    "image": "/image/photo_2025-05-25_15-57-55.webp",
     "category": "Especiales"
   }
 ]
