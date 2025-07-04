@@ -1,6 +1,24 @@
 {
     "products": [
         {
+            "title": "RLW-CC-011",
+            "description": "Marrón Oscuro. Elegante cartera de cuero marrón oscuro, confeccionada con un cuidadoso trabajo artesanal.  Su diseño minimalista y funcional la convierte en el accesorio perfecto para el hombre moderno.",
+            "image": "/image/ImagendeWhatsApp1.webp",
+            "category": "Carteras_Caballeros"
+        },
+        {
+            "title": "RLW-CC-010",
+            "description": "Noche Estelar. Elegante billetera de cuero artesanal, con un diseño sofisticado y duradero.  Su combinación de cuero negro de primera calidad con detalles en marrón crea un contraste visual impactante.  Cuenta con múltiples compartimentos para tarjetas y efectivo.",
+            "image": "/image/ImagendeWhatsApp2.webp",
+            "category": "Carteras_Caballeros"
+        },
+        {
+            "title": "RLW-CC-009",
+            "description": "Cartera Artesanal Marrón. Elegante cartera de cuero genuino, marrón oscuro, con un diseño artesanal que le confiere un toque único y sofisticado. Su cierre de cremallera de alta calidad asegura la seguridad de sus pertenencias. El interior cuenta con múltiples compartimentos para tarjetas y billetes, ofreciendo una gran capacidad de organización.",
+            "image": "/image/ImagendeWhatsApp3.webp",
+            "category": "Carteras_Caballeros"
+        },
+        {
             "title": "RLW-CD-004",
             "description": "Cartera Roja Clásica. Elegante cartera larga de cuero rojo, con cierre de cremallera y múltiples compartimentos para tarjetas y billetes.",
             "image": "/image/resized_photo_2025-03-01_15-38-11.webp",
