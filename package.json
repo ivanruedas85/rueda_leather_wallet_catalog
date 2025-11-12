@@ -10,5 +10,8 @@
   },
   "dependencies": {
     "astro": "^5.5.5"
+  },
+  "devDependencies": {
+    "netlify-cli": "^23.10.0"
   }
 }
