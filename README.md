@@ -8,6 +8,8 @@ Este ***catálogo digital*** refleja el compromiso de la marca con la calidad y 
 
 ## Estructura del proyecto
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f41ee992-2247-4142-bce7-3bc456298876/deploy-status)](https://app.netlify.com/projects/catalogorlw/deploys)
+
 Dentro de este proyecto se encuentra la siguiente estructura:
 
 ```text
