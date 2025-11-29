@@ -1,5 +1,5 @@
-export const SPECIAL_START_DATE = new Date('2025-05-25')
-export const SPECIAL_END_DATE = new Date('2025-06-15')
+export const SPECIAL_START_DATE = new Date('2025-11-29')
+export const SPECIAL_END_DATE = new Date('2025-12-20')
 
 export function isSpecialActive(): boolean {
     const now = new Date()

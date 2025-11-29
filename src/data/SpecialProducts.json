@@ -1,30 +1,51 @@
 [
   {
-    "title": "Fuego y Noche",
-    "price": 299.99,
-    "description": "Elegante cartera de piel bicolor, combinando el rojo intenso con el negro clásico.  Su diseño compacto y sofisticado la hace perfecta para el uso diario.",
-    "image": "/image/7ae509ea.webp",
-    "category": "Especiales"
+      "title": "RLW-CC-001",
+      "price": "",
+      "description": "Hibrid. Elegante cartera con combinaciones de piel vacuno y piel de panza de reptil con monedero y múltiples espacios para tarjetas.",
+      "image": "/image/eph50ugdbxbwezr6321i.webp",
+      "category": "Carteras_Caballeros"
   },
   {
-    "title": "Cartera Ébano",
-    "price": 299.99,
-    "description": "refleja sobriedad y refinamiento en cada costura. es perfecta para Eventos formales, uso ejecutivo, estilo minimalista.",
-    "image": "/image/photo_2025-05-25_15-58-07.webp",
-    "category": "Especiales"
+      "title": "RLW-BD-001",
+      "price": "",
+      "description": "Lysa. Hermosa bolsa de mano tipo tote, en 3 colores: Café Offshore, Café Claro y Café Obscuro, Con bolsa interior con cierre.",
+      "image": "/image/hyoioltstry07mhnnb5r.webp",
+      "category": "Bolsas_Dama"
   },
   {
-    "title": "Cartera Roble",
-    "price": 299.99,
-    "description": "La Cartera Roble destaca por su diseño minimalista y estructura sólida, confeccionada en cuero legítimo de alta calidad.",
-    "image": "/image/photo_2025-05-25_15-57-57.webp",
-    "category": "Especiales"
+      "title": "RLW-CD-001",
+      "price": "",
+      "description": "Elegante tarjetero en piel vacuno color negro, con monedero, especial para el día a día.",
+      "image": "/image/v76wzvyg7yp8oe0gco8e.webp",
+      "category": "Carteras_Damas"
   },
   {
-    "title": "Cartera Álamo",
-    "price": 299.99,
-    "description": "combina elegancia rústica y funcionalidad moderna en un diseño artesanal de cuero genuino.",
-    "image": "/image/photo_2025-05-25_15-57-55.webp",
-    "category": "Especiales"
+      "title": "RLW-CD-002",
+      "price": "",
+      "description": "Hermoso tarjetero en piel vacuno color café obscuro, con espacios para tus tarjetas y credencial, con monedero amplio, y espacios para billetes, especial para uso diario.",
+      "image": "/image/mprk17nxzsrguwqwau4a.webp",
+      "category": "Carteras_Damas"
+  },
+  {
+      "title": "RLW-TM-003",
+      "price": "",
+      "description": "Hermoso tarjetero en cuero vacuno color negro tipo charol, para 4 tarjetas con espacio para billetes, especial para los que usan porcas tarjetas, para uso diario.",
+      "image": "/image/qqclaecdmpvxl5d36bz9.webp",
+      "category": "Tarjeteros"
+  },
+  {
+      "title": "RLW-CD-001",
+      "price": "",
+      "description": "Esta cartera está confeccionada con materiales de alta calidad, lo que garantiza su durabilidad y resistencia al uso diario. Su diseño moderno y sofisticado la convierte en el complemento perfecto tanto para ocasiones casuales como formales.",
+      "image": "/image/s7zofgzphnk7wpbqsjtm.webp",
+      "category": "Carteras_Damas"
+  },
+  {
+      "title": "RLW-CC-001",
+      "price": "",
+      "description": "Cartera elegante y funcional, ideal para quienes buscan estilo y practicidad en un solo accesorio. Fabricada con materiales de alta calidad, esta cartera cuenta con múltiples compartimentos para 4 tarjetas y billetes, manteniendo todo organizado y seguro.",
+      "image": "/image/xqypyubc8zusmei6uvoz.webp",
+      "category": "Carteras_Caballeros"
   }
 ]

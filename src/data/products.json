@@ -1,15 +1,45 @@
 {
     "products": [
         {
-            "title": "RLW-CC-011",
-            "description": "Marrón Oscuro. Elegante cartera de cuero marrón oscuro, confeccionada con un cuidadoso trabajo artesanal.  Su diseño minimalista y funcional la convierte en el accesorio perfecto para el hombre moderno.",
-            "image": "/image/ImagendeWhatsApp1.webp",
+            "title": "RLW-CC-001",
+            "description": "Hibrid. Elegante cartera con combinaciones de piel vacuno y piel de panza de reptil con monedero y múltiples espacios para tarjetas.",
+            "image": "/image/eph50ugdbxbwezr6321i.webp",
             "category": "Carteras_Caballeros"
         },
         {
+            "title": "RLW-BD-001",
+            "description": "Lysa. Hermosa bolsa de mano tipo tote, en 3 colores: Café Offshore, Café Claro y Café Obscuro, Con bolsa interior con cierre.",
+            "image": "/image/hyoioltstry07mhnnb5r.webp",
+            "category": "Bolsas_Dama"
+        },
+        {
             "title": "RLW-CD-001",
-            "description": "Marrón Oscuro. Elegante cartera de cuero marrón oscuro, confeccionada con un cuidadoso trabajo artesanal.  Su diseño minimalista y funcional la convierte en el accesorio perfecto para el hombre moderno.",
-            "image": "/image/ImagendeWhatsApp1.webp",
+            "description": "Elegante tarjetero en piel vacuno color negro, con monedero, especial para el día a día.",
+            "image": "/image/v76wzvyg7yp8oe0gco8e.webp",
+            "category": "Carteras_Damas"
+        },
+        {
+            "title": "RLW-CD-002",
+            "description": "Hermoso tarjetero en piel vacuno color café obscuro, con espacios para tus tarjetas y credencial, con monedero amplio, y espacios para billetes, especial para uso diario.",
+            "image": "/image/mprk17nxzsrguwqwau4a.webp",
+            "category": "Carteras_Damas"
+        },
+        {
+            "title": "RLW-TM-003",
+            "description": "Hermoso tarjetero en cuero vacuno color negro tipo charol, para 4 tarjetas con espacio para billetes, especial para los que usan porcas tarjetas, para uso diario.",
+            "image": "/image/qqclaecdmpvxl5d36bz9.webp",
+            "category": "Tarjeteros"
+        },
+        {
+            "title": "RLW-CD-001",
+            "description": "Esta cartera está confeccionada con materiales de alta calidad, lo que garantiza su durabilidad y resistencia al uso diario. Su diseño moderno y sofisticado la convierte en el complemento perfecto tanto para ocasiones casuales como formales.",
+            "image": "/image/s7zofgzphnk7wpbqsjtm.webp",
+            "category": "Carteras_Damas"
+        },
+        {
+            "title": "RLW-CC-001",
+            "description": "Cartera elegante y funcional, ideal para quienes buscan estilo y practicidad en un solo accesorio. Fabricada con materiales de alta calidad, esta cartera cuenta con múltiples compartimentos para 4 tarjetas y billetes, manteniendo todo organizado y seguro.",
+            "image": "/image/xqypyubc8zusmei6uvoz.webp",
             "category": "Carteras_Caballeros"
         }
     ]
