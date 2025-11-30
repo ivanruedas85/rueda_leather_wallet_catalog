@@ -1,5 +1,5 @@
 // filepath: c:\Users\Ivan Rueda\Documents\Github\Astro\rueda_leather_wallet_catalog\src\utils\categoryUtils.js
-import Products from '../data/Products.json';
+import Products from '../data/products.json';
 
 export function getCategoryData() {
     const { products } = Products;
